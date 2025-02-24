@@ -1,8 +1,8 @@
-import "./Services.css";
 import theme_pattern from "../../assets/swish.svg";
 import arrow_icon from "../../assets/arrow_icon.svg";
 import Services_Data from "./services_data";
-import React from "react";
+
+import "./Services.css";
 
 interface Service {
   s_no: string;
