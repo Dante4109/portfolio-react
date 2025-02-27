@@ -1,4 +1,4 @@
-import theme_pattern from "../../assets/swish.svg";
+import theme_pattern from "../../assets/theme_pattern.svg";
 import arrow_icon from "../../assets/arrow_icon.svg";
 import Services_Data from "./services_data";
 
