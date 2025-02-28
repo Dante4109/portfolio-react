@@ -25,7 +25,7 @@ const Contact = () => {
 
     if (data.success) {
       setResult("Form Submitted Successfully");
-      event.currentTarget.reset();
+      event?.currentTarget.reset();
     } else {
       console.log("Error", data);
       setResult(data.message);
@@ -69,9 +69,12 @@ const Contact = () => {
             rows={8}
             placeholder="Enter your message"
           ></textarea>
-          <button type="submit" className="contact-submit">
-            Submit now
-          </button>
+          <div className="submit-section">
+            <button type="submit" className="contact-submit">
+              Submit
+            </button>
+            <span className="form-result">{result}</span>
+          </div>
         </form>
       </div>
     </div>
