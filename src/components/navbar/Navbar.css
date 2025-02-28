@@ -24,3 +24,13 @@
 .nav-connect:hover {
   transform: scale(1.05);
 }
+
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}
