@@ -6,10 +6,10 @@ import menu_open from "../../assets/menu_open.svg";
 import menu_close from "../../assets/menu_close.svg";
 import underline from "../../assets/nav_underline.svg";
 
-import "./navbar.css";
+import "./Navbar.css";
 
 const Navbar = () => {
-  const [menu, setMenu] = useState("home");
+  /* const [menu, setMenu] = useState("home");
   const menuRef = useRef<HTMLUListElement>(null);
 
   const openMenu = () => {
@@ -18,11 +18,11 @@ const Navbar = () => {
 
   const closeMenu = () => {
     menuRef.current!.style.right = "-350px";
-  };
+  }; */
 
   return (
     <div className="navbar">
-      <div className="nav-logo">
+      {/* <div className="nav-logo">
         <img src={logo} alt="" />
       </div>
       <img src={menu_open} onClick={openMenu} alt="" className="nav-mob-open" />
@@ -68,7 +68,8 @@ const Navbar = () => {
         <AnchorLink className="anchor-link" offset={50} href="#contact">
           Connect with Me
         </AnchorLink>
-      </div>
+      </div> */}
+      <p>navbar</p>
     </div>
   );
 };
