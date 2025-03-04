@@ -1,10 +1,10 @@
-import Navbar from "./Components/Navbar/Navbar";
-import Hero from "./Components/Hero/Hero";
-import About from "./Components/About/About";
-import Services from "./Components/Services/Services";
-import MyWork from "./Components/MyWork/MyWork";
-import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
+import Services from "./components/Services/Services";
+import MyWork from "./components/MyWork/MyWork";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
